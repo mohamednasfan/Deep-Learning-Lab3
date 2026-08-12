@@ -1,0 +1,11 @@
+Question: Implement the update rule using gradient descent.
+General gradient descent rule: theta = theta - alpha * (dJ / dtheta)
+
+Answer:
+The update equations for each parameter using learning rate (alpha) are:
+W1 = W1 - learning_rate * dW1
+b1 = b1 - learning_rate * db1
+W2 = W2 - learning_rate * dW2
+b2 = b2 - learning_rate * db2
+
+Where dW1, db1, dW2, and db2 represent the partial derivatives of the loss function J with respect to each corresponding parameter.
